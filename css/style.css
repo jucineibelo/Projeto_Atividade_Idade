@@ -1,0 +1,19 @@
+* { 
+    font-family: sans-serif;
+    color: rgb(7, 6, 6);
+    background-color: rgba(46, 101, 146, 0.075);
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 900;
+    background-color: aqua;
+    width: 580px;
+    background-image: linear-gradient(rgba(39, 122, 160, 0.199), rgba(0, 0, 255, 0.308),rgba(19, 33, 95, 0.425));
+    color:white;
+}
+
+footer {
+    text-align: left;
+    margin-top: 80px;
+}

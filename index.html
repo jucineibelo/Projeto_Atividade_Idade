@@ -9,36 +9,36 @@
     <script src="js/script.js"defer></script>
 </head>
 <body>
-    <header>
-        <h1>Verificador de Idade</h1>
-    </header>
+    <main>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
 
-    <section>
-        <div>
-            <p>Ano de Nascimento
-                <input type="number" name="txtano" id="txtano" min="0">
-            </p>
-            <p>Sexo:
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
-        </div>
+        <section class="textual">
+            <div>
+                <p>Ano de Nascimento
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p class="botao">
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </div>
 
-        <div id="res">
-            Preencha os dados acima para ver o resultado!
+            <div id="res">
+                Preencha os dados acima para ver o resultado!
+            </div>     
 
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy Atividade do Curso em Video, desenvolvido por <strong>Jucinei Belo</strong></p>
-
-    </footer>
+            <footer>
+                <p>&copy Atividade do Curso em Video, desenvolvido por <strong>Jucinei Belo</strong></p>
+            </footer>
+        </section>
+    </main>
 
     
 </body>
